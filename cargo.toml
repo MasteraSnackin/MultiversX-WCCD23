@@ -1,0 +1,9 @@
+[package]
+name = "escrow_fight_contract"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+multiversx-sc = "0.30.1" # Ensure you use the latest stable version
+multiversx-sc-macros = "0.30.1"
+rand = "0.8" # For generating random numbers
